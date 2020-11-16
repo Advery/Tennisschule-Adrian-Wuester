@@ -380,7 +380,7 @@ min-height: 100%;
 	}
 	.content-block {
 		width: 100%;
-		height: auto;
+		min-height: auto;
 		display: flex;
 		flex-direction: column;
 	}
