@@ -1,0 +1,500 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root {
+	font-size: 62.5%;
+}
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+/**** Basics ****/
+body {
+	margin: 0;
+	background-color: #479e82;
+	font-family: "Roboto", sans-serif;
+	color: white;
+}
+h1 {
+	font-size: 2.8rem;
+	margin: 0;
+	width: 100%;
+}
+p {
+	font-size: 1.8rem;
+	line-height: 2.4rem;
+}
+.stretch-content-vertical p:first-child {
+	padding-top: 4rem;
+	margin-top: 0;
+}
+.stretch-content-col-2 p:first-of-type {
+	padding-top: 4rem;
+	margin-top: 0;
+}
+ul{
+			margin-left: 2.5rem;
+			margin-top: 4rem;
+}
+li {
+	font-size: 1.8rem;
+	line-height: 2.4rem;
+}
+
+/**** 4 Felder normal ****/
+.content-max {
+	width: 100%;
+	min-height: 66.2rem;
+	height: auto;
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+}
+.content-block {
+	box-sizing: border-box;
+	display: flex;
+	width: 100vw;
+	min-height: 55.2rem;
+	height: auto;
+	border: 0.4rem solid white;
+	border-right: none;
+	border-left: none;
+}
+.content-col-1 {
+	width: 6%;
+	min-height: 100%;
+	border-right: 0.2rem solid white;
+}
+.content-col-2 {
+	box-sizing: border-box;
+	display: flex;
+	flex-wrap: wrap;
+	width: 67%;
+	min-height: 100%;
+}
+.content-2-1 {
+	width: 50%;
+	min-height: 50%;
+	border: 0.2rem solid white;
+	border-top: none;
+	padding-left: 4rem;
+	padding-right: 4rem;
+	padding-top: 4rem;
+	padding-bottom: 0rem;
+}
+.content-2-2 {
+	width: 50%;
+	min-height: 50%;
+	border: 0.2rem solid white;
+	border-top: none;
+	background-image: url("photo-1560012057-4372e14c5085.jpg");
+	background-size: cover;
+}
+.content-2-2 img{
+object-fit: cover;
+max-width: 100%;
+min-height: 100%;
+}
+.content-2-3 {
+	width: 50%;
+	min-height: 50%m;
+	border: 2px solid white;
+	border-bottom: none;
+	padding-left: 4rem;
+	padding-right: 4rem;
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+}
+
+.content-2-4 {
+	width: 50%;
+	min-height: 50%;
+	border: 0.2rem solid white;
+	border-bottom: none;
+}
+.content-col-3 {
+	width: 27%;
+	min-height: 100%;
+	border-left: 0.2rem solid white;
+}
+
+/**** 3 Felder, unteres Feld gestreckt über zwei Spalten ****/
+.cont-1 {
+	width: 6%;
+	min-height: 100%;
+	border-right: 0.2rem solid white;
+}
+.cont-2 {
+	box-sizing: border-box;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: stretch;
+	align-content: stretch;
+	width: 67%;
+	min-height: 100%;
+}
+.cont-3 {
+	width: 27%;
+	min-height: 100%;
+	border-left: 0.2rem solid white;
+}
+.cont-2-1 {
+	width: 50%;
+	min-height: 50%;
+	border: 0.2rem solid white;
+	border-top: none;
+	padding-left: 4rem;
+	padding-right: 4rem;
+	padding-top: 4rem;
+}
+.cont-2-2 {
+	width: 50%;
+	min-height: 50%;
+	border: 0.2rem solid white;
+	border-top: none;
+	background-image: url("photo-1560012057-4372e14c5085.jpg");
+	background-size: cover;
+}
+.stretch-content-vertical {
+	width: 100%;
+	min-height: 50%;
+	border: 0.2rem solid white;
+	border-bottom: none;
+	padding-left: 4rem;
+	padding-right: 4rem;
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+}
+
+.cont-2-4 {
+	width: 50%;
+	min-height: 50%;
+	border: 0.2rem solid white;
+	border-bottom: none;
+	background-image: url("photo-1560012057-4372e14c5085.jpg");
+	background-size: cover;
+}
+
+/**** 2 Felder gestreckt über zwei Zeilen vertikal ****/
+.stretch-content-col-2 {
+	box-sizing: border-box;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	align-content: flex-start;
+	width: 33.5%;
+	min-height: 100%;
+	border: 0.2rem solid white;
+	border-bottom: none;
+	border-top: none;
+	padding-left: 4rem;
+	padding-right: 4rem;
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+}
+.stretch-content-col-3 {
+	box-sizing: border-box;
+	display: flex;
+	flex-wrap: wrap;
+	width: 33.5%;
+	min-height: 100%;
+	border: 0.2rem solid white;
+	border-bottom: none;
+	border-top: none;
+	border-right: 0.4rem solid white;
+	background-image: url("photo-1560012057-4372e14c5085.jpg");
+	background-size: cover;
+}
+
+/**** 2 Felder gestreckt über zwei Zeilen vertikal plus eines breit ****/
+.big-content-col-3 {
+	box-sizing: border-box;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: stretch;
+	align-content: stretch;
+	width: 60.5%;
+	min-height: 100%;
+	border: 0.2rem solid white;
+	border-bottom: none;
+	border-top: none;
+	border-right: none;
+	background-image: url("photo-1560012057-4372e14c5085.jpg");
+	background-size: cover;
+}
+
+
+@media screen and  (max-width: 1200px) {
+/* 4 Felder normal */
+	.content-col-2 {
+		width: 82%;
+	}
+	.content-col-3 {
+		width: 12%;
+	}
+/* 3 Felder normal */
+	.cont-2 {
+		width: 82%;
+	}
+	.cont-3 {
+		width: 12%;
+	}
+/* 2 Felder normal */
+	.stretch-content-col-2 {
+		width: 41%;
+	}
+	.stretch-content-col-3 {
+		width: 41%;
+	}
+	.content-col-4 {
+		width: 12%;
+	}
+/* 2 Felder 1 normal + 1 gross*/
+	.big-content-col-3 {
+		width: 53%;
+	}
+}
+
+
+@media screen and  (max-width: 800px) {
+	/* basics */
+	ul{
+				margin-left: 2.5rem;
+				margin-top: 4rem;
+	}
+	/* block-container */
+	.content-max {
+		width: 100%;
+		min-height: 66.2rem;
+	}
+	.content-block {
+		box-sizing: border-box;
+		display: flex;
+		width: 100%;
+		min-height: 55.2rem;
+	}
+/* 4 Felder normal */
+	.content-col-1 {
+		display: none;
+	}
+	.content-col-2 {
+		width: 100%;
+	}
+	.content-2-1 {
+		min-width: 50%;
+		border-left: none;
+		border-bottom: 0.2rem solid white;
+		padding-left: 2rem;
+		padding-right: 2rem;
+		padding-top: 2rem;
+	}
+	.content-2-2 {
+		min-width: 50%;
+		border-right: none;
+		border-bottom: 0.2rem solid white;
+		border-top: none;
+	}
+	.content-2-3 {
+		min-width: 50%;
+		border-left: none;
+		border-top: none;
+		border-top: 0.2rem solid white;
+		padding-left: 2rem;
+		padding-right: 2rem;
+		padding-top: 2rem;
+		padding-bottom: 2rem;
+	}
+	.content-2-4 {
+		min-width: 50%;
+		min-height: 50%;
+		border-right: none;
+		border-top: none;
+		border-top: 0.2rem solid white;
+	}
+	.content-col-3 {
+		display: none;
+	}
+/* 3 Felder */
+	.cont-1 {
+		display: none;
+	}
+	.cont-2 {
+		width: 100%;
+	}
+	.cont-2-1 {
+		border-left: none;
+		min-width: 50%;
+		padding-left: 2rem;
+		padding-right: 2rem;
+		padding-top: 2rem;
+	}
+	.cont-2-2 {
+		border-right: none;
+		min-width: 50%;
+	}
+	.stretch-content-vertical {
+		min-width: 100%;
+		border-left: none;
+		padding-left: 2rem;
+		padding-right: 2rem;
+		padding-top: 2rem;
+		padding-bottom: 2rem;
+	}
+	.cont-3 {
+		display: none;
+	}
+	.stretch-content-col-2 {
+		min-width: 50%;
+		border-left: none;
+		padding-left: 2rem;
+		padding-right: 2rem;
+		padding-top: 2rem;
+		padding-bottom: 2rem;
+	}
+	.stretch-content-col-3 {
+		min-width: 50%;
+		border-right: none;
+	}
+	.big-content-col-3 {
+		min-width: 50%;
+	}
+
+}
+
+@media screen and (max-width: 479px) {
+/* block-container */
+	.content-max {
+		width: 100%;
+		height: auto;
+		margin-top: 100px;
+	}
+	.content-block {
+		width: 100%;
+		height: auto;
+		display: flex;
+		flex-direction: column;
+	}
+	/* 4 Felder normal */
+  .content-col-1 {
+    display: none;
+		visibility: hidden;
+  }
+  .content-col-3 {
+    display: none;
+		visibility: hidden;
+  }
+	.content-col-2 {
+		min-width: 100%;
+		border-left: none;
+	}
+	.content-2-1 {
+		border-left: none;
+		border-right: none;
+		width: 100%;
+		border-bottom: none;
+	}
+	.content-2-2 {
+		width: 100%;
+		min-height: 50vh;
+		border-left: none;
+		border-right: none;
+		border-top: none;
+		border-bottom: none;
+	}
+	.content-2-3 {
+		width: 100%;
+		border-right: none;
+		border-left: none;
+		border-top: none;
+		border-bottom: 0.4rem solid white;
+	}
+	.content-2-4 {
+		display: none;
+	}
+	.aufbrechen-1 {
+		width: 100%;
+		min-height: 100%;
+	}
+	div#divorder2-1 {
+		order: 1;
+		-webkit-order: 1;
+	}
+	div#divorder2-2 {
+		order: 3;
+		-webkit-order: 3;
+	}
+	div#divorder2-3 {
+		order: 2;
+		-webkit-order: 2;
+	}
+	/* 3 Felder normal */
+	.cont-1 {
+		display: none;
+	}
+	.cont-2 {
+		width: 100%;
+	}
+	.cont-2-1 {
+		border-left: none;
+		border-right: none;
+		border-bottom: none;
+		width: 100%;
+		display: flex;
+		display: -webkit-flex; /* Safari */
+	}
+	.cont-2-2 {
+		width: 100%;
+		min-height: 50vh;
+		border-top: 0.4rem solid white;
+		border-right: none;
+		border-left: none;
+		border-bottom: none;
+	}
+	.stretch-content-vertical {
+		width: 100%;
+		min-height: auto;
+		border-left: none;
+		border-right: none;
+		border-top: none;
+	}
+	div#divorder1-1 {
+		order: 1;
+		-webkit-order: 1;
+	}
+	div#divorder1-2 {
+		order: 3;
+		-webkit-order: 3;
+	}
+	div#divorder1-3 {
+		order: 2;
+		-webkit-order: 2;
+	}
+	.cont-3 {
+		display: none;
+		border-left: none;
+	}
+	/* 2 Felder normal */
+	.stretch-content-col-2 {
+		width: 100%;
+		height: auto;
+		border-left: none;
+		border-right: none;
+	}
+	.stretch-content-col-3 {
+		width: 100%;
+		min-height: 50vh;
+		border-top: 0.4rem solid white;
+		border-left: none;
+		border-right: none;
+	}
+/* 2 Felder / 1 normal + 1 gross */
+	.big-content-col-3 {
+		width: 100%;
+		min-height: 50vh;
+		border-top: 0.4rem solid white;
+		border-left: none;
+	}
+}
