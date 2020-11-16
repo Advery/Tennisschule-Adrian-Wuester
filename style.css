@@ -28,6 +28,12 @@ p {
 	font-size: 1.8rem;
 	line-height: 2.4rem;
 }
+img {
+	object-fit: cover;
+    	min-height: 100%;
+   	 max-width: 100%;
+}
+
 .stretch-content-vertical p:first-child {
 	padding-top: 4rem;
 	margin-top: 0;
