@@ -15,7 +15,6 @@
 /**** Basics ****/
 body {
 	margin: 0;
-	background-color: #479e82;
 	font-family: "Roboto", sans-serif;
 	color: white;
 }
@@ -33,7 +32,6 @@ img {
     	min-height: 100%;
    	 max-width: 100%;
 }
-
 .stretch-content-vertical p:first-child {
 	padding-top: 4rem;
 	margin-top: 0;
@@ -49,6 +47,15 @@ ul{
 li {
 	font-size: 1.8rem;
 	line-height: 2.4rem;
+}
+.hgfarbe-start, .hgfarbe-coach {
+	background-color: #0780CE;
+}
+.hgfarbe-service {
+	background-color: #479e82;
+}
+.hgfarbe-tarife {
+	background-color: #E87C5A;
 }
 
 /**** 4 Felder normal ****/
