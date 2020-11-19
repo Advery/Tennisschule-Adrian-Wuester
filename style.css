@@ -530,7 +530,7 @@ min-height: 100%;
 
 
 /* Footer */
-@media screen and (min-width: 480px){
+@media screen and (min-width: 1199px){
 footer{
 width: 60%;
 
