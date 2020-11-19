@@ -34,6 +34,9 @@ p {
 	line-height: 2.4rem;
 
 }
+a {
+	color: white;
+}
 img {
 	object-fit: cover;
     	min-height: 100%;
@@ -100,6 +103,7 @@ li {
 .content-col-1 {
 	width: 6%;
 	min-height: 100%;
+	height: auto;
 	border-right: 0.2rem solid white;
 }
 .content-col-2 {
@@ -108,10 +112,12 @@ li {
 	flex-wrap: wrap;
 	width: 67%;
 	min-height: 100%;
+	height: auto;
 }
 .content-2-1 {
 	width: 50%;
 	min-height: 50%;
+	height: auto;
 	border: 0.2rem solid white;
 	border-top: none;
 	padding: 4rem;
@@ -119,19 +125,17 @@ li {
 .content-2-2 {
 	width: 50%;
 	min-height: 50%;
+	height: auto;
 	border: 0.2rem solid white;
 	border-top: none;
 	background-size: cover;
 	background-position: center;
 }
-.content-2-2 img{
-object-fit: cover;
-max-width: 100%;
-min-height: 100%;
-}
+
 .content-2-3 {
 	width: 50%;
 	min-height: 50%m;
+	height: auto;
 	border: 2px solid white;
 	border-bottom: none;
 	padding-left: 4rem;
@@ -143,12 +147,14 @@ min-height: 100%;
 .content-2-4 {
 	width: 50%;
 	min-height: 50%;
+	height: auto;
 	border: 0.2rem solid white;
 	border-bottom: none;
 }
 .content-col-3 {
 	width: 27%;
 	min-height: 100%;
+	height: auto;
 	border-left: 0.2rem solid white;
 }
 
@@ -175,6 +181,7 @@ min-height: 100%;
 .cont-2-1 {
 	width: 50%;
 	min-height: 50%;
+	height: auto;
 	border: 0.2rem solid white;
 	border-top: none;
 	padding-left: 4rem;
@@ -184,6 +191,7 @@ min-height: 100%;
 .cont-2-2 {
 	width: 50%;
 	min-height: 50%;
+	height: auto;
 	border: 0.2rem solid white;
 	border-top: none;
 	background-size: cover;
@@ -192,6 +200,7 @@ min-height: 100%;
 .stretch-content-vertical {
 	width: 100%;
 	min-height: 50%;
+	height: auto;
 	border: 0.2rem solid white;
 	border-bottom: none;
 	padding-left: 4rem;
@@ -203,6 +212,7 @@ min-height: 100%;
 .cont-2-4 {
 	width: 50%;
 	min-height: 50%;
+	height: auto;
 	border: 0.2rem solid white;
 	border-bottom: none;
 	background-size: cover;
