@@ -36,6 +36,8 @@ img {
 	height: 20vh;
 	width: 100%;
 	background-color: blue;
+	position: fixed;
+	top: 0;
 }
 
 .stretch-content-vertical p:first-child {
