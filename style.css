@@ -114,10 +114,7 @@ li {
 	min-height: 50%;
 	border: 0.2rem solid white;
 	border-top: none;
-	padding-left: 4rem;
-	padding-right: 4rem;
-	padding-top: 4rem;
-	padding-bottom: 0rem;
+	padding: 4rem;
 }
 .content-2-2 {
 	width: 50%;
