@@ -564,7 +564,7 @@ display: inline-block;
 
 /* Footer smartphone */
 
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 1200px) {
 	footer ul{
 		margin: 0 0 6rem 6rem;
 	}
