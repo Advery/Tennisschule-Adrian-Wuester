@@ -532,10 +532,10 @@ min-height: 100%;
 /* Footer */
 
 footer{
-display: block;
-margin-top: 15px;
+
 }
 footer ul li {
 display: inline-block;
-margin-right: 15px;
+margin-right: 20px;
+text-decoration: none;
 }
