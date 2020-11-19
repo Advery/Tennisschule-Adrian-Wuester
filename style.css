@@ -526,3 +526,16 @@ min-height: 100%;
 		border-left: none;
 	}
 }
+
+
+
+/* Footer */
+
+footer{
+display: block;
+margin-top: 15px;
+}
+footer ul li {
+display: inline-block;
+margin-right: 15px;
+}
