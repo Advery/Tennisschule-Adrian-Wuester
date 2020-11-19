@@ -59,7 +59,7 @@ img {
 	border-right: none;
 	border-left: none;
 }
-.content-max:first-of-type {
+.content-max:first-child {
 	margin-top: 20vh;
 }
 
@@ -72,8 +72,8 @@ img {
 	margin-top: 0;
 }
 ul{
-			margin-left: 2.5rem;
-			margin-top: 4rem;
+	margin-left: 2.5rem;
+	margin-top: 4rem;
 }
 li {
 	font-size: 1.8rem;
