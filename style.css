@@ -32,6 +32,11 @@ img {
     	min-height: 100%;
    	 max-width: 100%;
 }
+.distance_nav {
+	height: 20vh;
+	width: 100%;
+}
+
 .stretch-content-vertical p:first-child {
 	padding-top: 4rem;
 	margin-top: 0;
