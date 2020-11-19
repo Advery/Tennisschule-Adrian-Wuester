@@ -60,7 +60,7 @@ img {
 	border-right: none;
 	border-left: none;
 }
-.content-max:first-child {
+div.content-max:first-child {
 	margin-top: 20vh;
 }
 
