@@ -529,6 +529,17 @@ min-height: 100%;
 
 
 
+
+/* footer allgemein */
+
+footer ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 1.6rem;
+	font-weight: bold;
+
+}
+
 /* Footer widescreen */
 @media screen and (min-width: 1200px){
 footer{
@@ -544,23 +555,13 @@ margin: 0 5rem 2.5rem 5rem;
 }
 footer ul li{
 display: inline-block;
-text-decoration: none;
 }
 
-footer ul li a{
-	text-decoration: none;
-	color: white;
-	font-size: 1.6rem;
-	font-weight: bold;
-
-}
 }
 
 /* Footer smartphone */
 
 @media screen and (max-width: 1199px) {
 	footer ul li{
-	display: inline-block;
-	text-decoration: none;
 	}
 }
