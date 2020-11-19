@@ -529,8 +529,8 @@ min-height: 100%;
 
 
 
-/* Footer */
-@media screen and (min-width: 1199px){
+/* Footer widescreen */
+@media screen and (min-width: 1200px){
 footer{
 width: 60%;
 
@@ -558,6 +558,9 @@ footer ul li a{
 
 /* Footer smartphone */
 
-@media screen and (max-width: 479px) {
-
+@media screen and (max-width: 1199px) {
+	footer ul li{
+	display: inline-block;
+	text-decoration: none;
+	}
 }
