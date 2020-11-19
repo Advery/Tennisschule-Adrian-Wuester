@@ -118,7 +118,7 @@ li {
 	border: 0.2rem solid white;
 	border-top: none;
 	background-size: cover;
-	background-image
+	background-position: center;
 }
 .content-2-2 img{
 object-fit: cover;
@@ -183,6 +183,7 @@ min-height: 100%;
 	border: 0.2rem solid white;
 	border-top: none;
 	background-size: cover;
+	background-position: center;
 }
 .stretch-content-vertical {
 	width: 100%;
@@ -201,6 +202,7 @@ min-height: 100%;
 	border: 0.2rem solid white;
 	border-bottom: none;
 	background-size: cover;
+	background-position: center;
 }
 
 /**** 2 Felder gestreckt über zwei Zeilen vertikal ****/
@@ -231,6 +233,7 @@ min-height: 100%;
 	border-top: none;
 	border-right: 0.4rem solid white;
 	background-size: cover;
+	background-position: center;
 }
 
 /**** 2 Felder gestreckt über zwei Zeilen vertikal plus eines breit ****/
@@ -247,6 +250,7 @@ min-height: 100%;
 	border-top: none;
 	border-right: none;
 	background-size: cover;
+	background-position: center;
 }
 
 
