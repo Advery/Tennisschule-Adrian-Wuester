@@ -532,17 +532,18 @@ min-height: 100%;
 /* Footer */
 
 footer{
-width: 100%;
+width: 80%;
 }
 
 footer ul{
 display: flex;
 flex-direction: row;
 justify-content: space-between;
+margin-right: 27%;
 }
 footer ul li{
 display: inline-block;
-margin: 0 8% 0 8%;
+margin: 0 7% 0 7%;
 text-decoration: none;
 }
 
