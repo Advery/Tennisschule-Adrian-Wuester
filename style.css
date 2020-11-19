@@ -553,14 +553,14 @@ footer ul li a{
 	color: white;
 	font-size: 1.6rem;
 	font-weight: bold;
+	list-style-type: none;
 
 }
 
 /* Footer widescreen */
 @media screen and (min-width: 1200px){
 footer{
-width: 60%;
-
+width: 70%;
 }
 
 footer ul{
