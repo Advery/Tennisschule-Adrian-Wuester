@@ -530,7 +530,7 @@ min-height: 100%;
 
 
 /* Footer */
-
+@media screen and (min-width: 480px){
 footer{
 width: 60%;
 }
@@ -552,5 +552,12 @@ footer ul li a{
 	color: white;
 	font-size: 1.6rem;
 	font-weight: bold;
+
+}
+}
+
+/* Footer smartphone */
+
+@media screen and (max-width: 479px) {
 
 }
