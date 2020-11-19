@@ -549,13 +549,14 @@ li {
 @media screen and (min-width: 480px){
 footer{
 width: 60%;
+margin-bottom: 2.5rem;
 }
 
 footer ul{
 display: flex;
 flex-direction: row;
 justify-content: space-between;
-margin-right: 27%;
+margin-right: 5rem;
 }
 footer ul li{
 display: inline-block;
