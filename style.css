@@ -36,6 +36,7 @@ img {
 	height: 20vh;
 	width: 100%;
 	background-color: blue;
+	position: fixed;
 }
 
 .stretch-content-vertical p:first-child {
@@ -111,6 +112,7 @@ li {
 	border: 0.2rem solid white;
 	border-top: none;
 	background-size: cover;
+	background-image
 }
 .content-2-2 img{
 object-fit: cover;
