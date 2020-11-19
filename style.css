@@ -536,8 +536,10 @@ width: 100%;
 }
 
 footer ul{
-	display: flex;
-	flex-direction: row;
+display: flex;
+flex-direction: row;
+}
+footer ul li{
 /* display: inline-block; */
 /* margin: 0 25px; */
 text-decoration: none;
