@@ -538,10 +538,11 @@ width: 100%;
 footer ul{
 display: flex;
 flex-direction: row;
+justify-content: space-between;
 }
 footer ul li{
-/* display: inline-block; */
-/* margin: 0 25px; */
+display: inline-block;
+margin: 0 8% 0 8%;
 text-decoration: none;
 }
 
