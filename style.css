@@ -48,21 +48,21 @@ img {
 
 /**** Nav ****/
 
-.uk-navbar{
-		width: 100%;
-		justify-content: space-between;
+.navbar{
+	width: 100%;
+	justify-content: space-between;
 	}
 
-.uk-navbar-nav {
-display: flex;
-margin: 0;
-padding: 0;
-list-style: none;
+.navbar-nav {
+	display: flex;
+	margin: 0;
+	padding: 0;
+	list-style: none;
 	justify-content: space-between;
 	width: 75%;
 }
 
-.uk-navbar-nav > li > a {
+.navbar-nav > li > a {
 	color: white;
 	font-size: 1.6rem;
 	align-items: flex-end;
@@ -71,23 +71,23 @@ list-style: none;
 	font-weight: 600;
 }
 
-.uk-navbar-nav > li > a.first-margin {
+.navbar-nav > li > a.first-margin {
 	padding-left: 3rem;
 }
 
-.uk-navbar-left {
+.navbar-left {
 	width: 66%;
 }
 
-.uk-navbar-right {
+.navbar-right {
 	display: flex;
 	padding-left: 0rem;
 	width: 200px;
 
 }
 
-.uk-navbar-item {
-color: white;
+.navbar-item {
+	color: white;
 	align-items: baseline;
 	flex-direction: column;
 	justify-content: flex-end;
