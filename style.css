@@ -144,17 +144,7 @@ nav ul li a {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 600;
 }
-.logo {
-	display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 15vw;
-width: 13.4vw;
-    position: absolute;
-    top: 12vh;
-    left: 1.7%;
-    text-align: center;
-}
+
 .logo-1 {
 	width: 6vw;
 	height: 100%;
@@ -164,6 +154,12 @@ width: 13.4vw;
 	width: 33.5vw;
 	height: 100%;
 	border-left: solid 2px white;
+}
+.logo-1 img {
+	height: 15vh;
+}
+.logo-2 img {
+	height: 7.5vh;
 }
 
 /**** Main Container and fixes ****/
