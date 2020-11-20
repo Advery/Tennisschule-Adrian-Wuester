@@ -612,6 +612,8 @@ footer ul {
 @media screen and (min-width: 1200px){
 footer{
 width: 70%;
+margin: 0 0 6rem 6%;
+
 }
 
 footer ul{
@@ -622,9 +624,6 @@ margin: 0 5rem 2.5rem 0;
 }
 footer ul li{
 display: inline-block;
-}
-footer ul{
-	margin: 0 0 6rem 6rem;
 }
 
 }
