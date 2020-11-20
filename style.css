@@ -294,8 +294,6 @@ li {
 }
 .max-content-2 {
 	box-sizing: border-box;
-	display: flex;
-	flex-wrap: wrap;
 	width: 67%;
 	height: auto;
 	border: 0.2rem solid white;
@@ -304,6 +302,7 @@ li {
 	border-right: 0.4rem solid white;
 	background-size: cover;
 	background-position: center;
+	padding: 4rem;
 }
 .max-content-3 {
 	width: 27%;
