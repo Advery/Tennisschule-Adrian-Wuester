@@ -270,6 +270,49 @@ li {
 	background-position: center;
 }
 
+/**** 1 Feld Impressum und Datenschutz Container ****/
+.max-content-max {
+	width: 100%;
+	height: auto;
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+}
+.max-content-block {
+	box-sizing: border-box;
+	display: flex;
+	width: 100vw;
+	height: auto;
+	border: 0.4rem solid white;
+	border-right: none;
+	border-left: none;
+}
+.max-content-1 {
+	width: 6%;
+	height: auto;
+	border-right: 0.2rem solid white;
+}
+.max-content-2 {
+	box-sizing: border-box;
+	display: flex;
+	flex-wrap: wrap;
+	width: 67%;
+	height: auto;
+	border: 0.2rem solid white;
+	border-bottom: none;
+	border-top: none;
+	border-right: 0.4rem solid white;
+	background-size: cover;
+	background-position: center;
+}
+.max-content-3 {
+	width: 27%;
+	min-height: 100%;
+	height: auto;
+	border-left: 0.2rem solid white;
+}
+
+
 
 @media screen and  (max-width: 1200px) {
 /* 4 Felder normal */
