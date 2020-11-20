@@ -148,7 +148,7 @@ nav ul li a {
 	display: flex;
     align-items: center;
     justify-content: center;
-    width: 13.4%;
+    height: 15vw;
     position: absolute;
     top: 12vh;
     left: 1.7%;
@@ -255,7 +255,6 @@ li {
 	background-size: cover;
 	background-position: center;
 }
-
 .content-2-3 {
 	width: 50%;
 	min-height: 50%m;
@@ -267,7 +266,6 @@ li {
 	padding-top: 4rem;
 	padding-bottom: 4rem;
 }
-
 .content-2-4 {
 	width: 50%;
 	min-height: 50%;
@@ -332,7 +330,6 @@ li {
 	padding-top: 4rem;
 	padding-bottom: 4rem;
 }
-
 .cont-2-4 {
 	width: 50%;
 	min-height: 50%;
