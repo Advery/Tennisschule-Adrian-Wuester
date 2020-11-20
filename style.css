@@ -155,11 +155,15 @@ nav ul li a {
 	height: 100%;
 	border-left: solid 2px white;
 }
-.logo-1 img {
-	height: 15vh;
-}
-.logo-2 img {
-	height: 7.5vh;
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 9%;
+    position: absolute;
+    top: 12vh;
+    left: 3.1%;
+    text-align: center;
 }
 
 /**** Main Container and fixes ****/
