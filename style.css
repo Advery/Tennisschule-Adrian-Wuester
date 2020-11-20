@@ -304,6 +304,9 @@ li {
 	background-position: center;
 	padding: 4rem;
 }
+.max-content-2 p:last-of-type {
+	margin: 0;
+}
 .max-content-3 {
 	width: 27%;
 	min-height: 100%;
