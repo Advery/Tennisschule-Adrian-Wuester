@@ -154,6 +154,12 @@ nav ul li a {
 	height: 100%;
 	border-left: solid 2px white;
 }
+.logo-1 img {
+	height: 100%;
+}
+.logo-2 img {
+	height: 100%;
+}
 
 
 /**** Main Container and fixes ****/
