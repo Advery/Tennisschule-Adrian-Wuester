@@ -84,6 +84,7 @@ img {
 	border-left: 2px solid white;
 	display: flex;
     	justify-content: space-between;
+	padding-bottom: 1rem;
 }
 nav {
 	display: flex;
@@ -91,6 +92,7 @@ nav {
     	position: relative;
     	height: 100%;
     	width: 100%;
+	margin-right: 5rem;
 }
 .main-navbar {
 	width: 66%;
@@ -152,6 +154,7 @@ nav ul li a {
 	text-transform: none;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 600;
+	text-decoration: none;
 }
 
 .logo-1 {
