@@ -51,9 +51,11 @@ img {
 
 .nav {
 	background-color: #479e82;
-	    margin-right: 3rem;
-   	 display: flex;
-    justify-content: space-between;
+	display: flex;
+    	justify-content: space-between;
+    	position: relative;
+    	height: 100%;
+    	width: 100%;
 }
 .nav-row-1 {
 	width: 100%;
