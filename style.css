@@ -51,6 +51,9 @@ img {
 
 .nav {
 	background-color: #479e82;
+	    margin-right: 3rem;
+   	 display: flex;
+    justify-content: space-between;
 }
 .nav-row-1 {
 	width: 100%;
@@ -77,6 +80,8 @@ img {
 	min-width: 60.5vw;
 	width: auto;
 	border-left: 2px solid white;
+	display: flex;
+    	justify-content: space-between;
 }
 .main-navbar {
 	width: 66%;
