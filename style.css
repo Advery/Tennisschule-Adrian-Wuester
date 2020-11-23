@@ -78,7 +78,7 @@ img {
 }
 .nav-col-2 {
 	min-width: 60.5vw;
-	width: auto;
+	width: 100%;
 	border-left: 2px solid white;
 	display: flex;
     	justify-content: space-between;
@@ -90,6 +90,7 @@ img {
 }
 nav {
 	display: flex;
+	justify-content: space-between;
 	position: relative;
 	height: 100%;
 }
