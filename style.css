@@ -40,6 +40,7 @@ div p:last-of-type {
 }
 a {
 	color: white;
+	text-decoration: none;
 }
 img {
 	object-fit: cover;
@@ -51,6 +52,9 @@ img {
 
 .nav {
 	background-color: #479e82;
+	margin-right: 3rem;
+    	display: flex;
+    	justify-content: space-between;
 }
 .nav-row-1 {
 	width: 100%;
