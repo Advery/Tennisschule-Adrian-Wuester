@@ -140,11 +140,25 @@ nav {
 	font-weight: 400;
     line-height: 1.5;
 }
-
 nav ul li {
 	display: flex;
 	align-items: flex-end;
+	position: relative;
 }
+.active::before {
+  content: url(/assets/img/tennisball.svg);
+  height: 20px;
+  width: 20px;
+  margin-right: 0.5rem;
+  margin-bottom: 0.2rem;
+}
+.mydiv li:hover {
+  content: url(/assets/img/tennisball.svg);
+  height: 20px;
+  width: 20px;
+  margin-right: 0.5rem;
+  margin-bottom: 0.2rem;
+ }
 nav ul li a {
 	color: white;
 	font-size: 2.56rem;
@@ -154,7 +168,6 @@ nav ul li a {
 	font-weight: 600;
 	text-decoration: none;
 }
-
 .logo-1 {
 	width: 6vw;
 	height: 100%;
