@@ -146,20 +146,22 @@ nav ul li {
 	position: relative;
 }
 .active::before {
-	content: "";
+content: "";
     width: 2rem;
     height: 2rem;
     background-image: url(/assets/img/tennisball.svg);
     background-repeat: no-repeat;
     position: absolute;
-    left: 0;
+    left: 2.5rem;
 }
 .mydiv li:hover {
-  content: url(/assets/img/tennisball.svg);
-  height: 20px;
-  width: 20px;
-  margin-right: 0.5rem;
-  margin-bottom: 0.2rem;
+content: "";
+    width: 2rem;
+    height: 2rem;
+    background-image: url(/assets/img/tennisball.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 2.5rem;
  }
 nav ul li a {
 	color: white;
