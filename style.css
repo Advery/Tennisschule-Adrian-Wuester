@@ -107,15 +107,16 @@ nav {
 	height: 100%;
 }
 .main-navbar ul li {
-		height: 100%;
+	height: 100%;
+	position: relative;
 }
 .number-navbar {
-color: white;
-display: flex;
-  align-items: baseline;
-  flex-direction: column;
-  justify-content: flex-end;
-  font-size: 1rem;
+	color: white;
+	display: flex;
+  	align-items: baseline;
+  	flex-direction: column;
+  	justify-content: flex-end;
+  	font-size: 1rem;
 }
 
 .number-navbar a {
