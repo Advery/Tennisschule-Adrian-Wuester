@@ -478,7 +478,10 @@ li {
     		width: auto;
 	}
 }
-
+@media screen and  (min-width: 1200px) {
+	.nav-mobil-on-off {
+	}
+}
 
 @media screen and  (max-width: 1200px) {
 /* 4 Felder normal */
