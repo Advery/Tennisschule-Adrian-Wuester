@@ -65,6 +65,7 @@ img {
     	height: 21.5rem;
     	width: 100%;
 }
+
 .nav-row-1 {
 	width: 100%;
 	height: 11vh;
@@ -472,7 +473,7 @@ li {
 	border-left: 0.2rem solid white;
 }
 
-@media screen and  (max-width: 1200px) {
+@media screen and  (max-width: 1400px) {
 	.main-navbar ul {
     		width: auto;
 	}
@@ -507,6 +508,12 @@ li {
 /* 2 Felder 1 normal + 1 gross*/
 	.big-content-col-3 {
 		width: 53%;
+	}
+}
+
+@media screen and  (max-width: 1000px) {
+	.nav-on-off {
+		display: none;
 	}
 }
 
