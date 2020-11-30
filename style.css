@@ -522,6 +522,16 @@ li {
 	  padding: 10px 15px;
 	  border: none;
 	}
+	.mydiv-mobil ul li::before {
+		content: "";
+		width: 2rem;
+		height: 2rem;
+		background-image: url(/assets/img/tennisball.svg);
+		background-repeat: no-repeat;
+		position: absolute;
+		left: -2.5rem;
+		bottom: 0.2rem;
+ }
 /* 4 Felder normal */
 	.content-col-2 {
 		width: 82%;
