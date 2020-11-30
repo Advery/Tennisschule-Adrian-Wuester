@@ -489,7 +489,6 @@ li {
 	  width: 0;
 	  position: fixed;
 	  z-index: 1;
-	  height: 250px;
 	  top: 0;
 	  left: 0;
 	  background-color: white;
@@ -501,7 +500,6 @@ li {
 		width: 100vw;
 		height: 100vh;
 	}
-	
 	.sidepanel a {
 	  padding: 8px 8px 8px 32px;
 	  text-decoration: none;
@@ -519,13 +517,10 @@ li {
 	.openbtn {
 	  font-size: 20px;
 	  cursor: pointer;
-	  background-color: #111;
-	  color: #0780CE;
+	  background-color: #479e82;
+	  color: white;
 	  padding: 10px 15px;
 	  border: none;
-	}
-	.openbtn:hover {
-	  background-color:#444;
 	}
 /* 4 Felder normal */
 	.content-col-2 {
