@@ -485,6 +485,7 @@ li {
 
 @media screen and  (max-width: 1200px) {	
 /* Nav Mobil */	
+	
 	.sidepanel  {
 	  width: 0;
 	  position: fixed;
