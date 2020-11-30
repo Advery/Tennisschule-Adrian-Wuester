@@ -223,12 +223,7 @@ nav ul li a {
 	align-items: center;
 }
 .content-max:first-of-type {
-	padding-top: 35vh;
-	margin-top: 35vh;
-}
-.content-max:first-child {
-	padding-top: 35vh;
-	margin-top: 35vh;
+	padding-top: 35vh!important;
 }
 .content-block {
 	box-sizing: border-box;
