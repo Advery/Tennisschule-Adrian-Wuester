@@ -70,7 +70,7 @@ img {
 	flex-direction: row;
 }
 .nav-col-1 {
-	min-width: 39.5vw;
+	min-width: 39.5%;
 	width: auto;
 	border-right: 2px solid white;
 	display: flex;
