@@ -166,14 +166,14 @@ content: "";
     left: -2.5rem;
 	bottom: 1rem;
 }
-.mydiv li:hover::before {
-content: "";
-    width: 2rem;
-    height: 2rem;
-    background-image: url(/assets/img/tennisball.svg);
-    background-repeat: no-repeat;
+ul.mydiv li:hover::before {
+	content: "";
+	width: 2rem;
+	height: 2rem;
+	background-image: url(/assets/img/tennisball.svg);
+	background-repeat: no-repeat;
 	position: absolute;
-    left: -2.5rem;
+    	left: -2.5rem;
 	bottom: 1rem;
  }
 nav ul li a {
