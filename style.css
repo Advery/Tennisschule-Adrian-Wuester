@@ -225,6 +225,7 @@ nav ul li a {
 }
 .content-max:first-of-type {
 	margin-top: 15vh !important;
+	
 }
 .content-block {
 	box-sizing: border-box;
@@ -238,7 +239,7 @@ nav ul li a {
 	border-left: none;
 }
 div.content-max:first-child {
-	/*margin-top: 20vh;*/
+	/* margin-top: 20vh; */
 }
 
 .stretch-content-vertical p:first-child {
