@@ -257,6 +257,7 @@ ul{
 li {
 	font-size: 1.8rem;
 	line-height: 1.4;
+	margin-bottom: 0.5rem;
 }
 .hgfarbe-start, .hgfarbe-coach {
 	background-color: #0780CE;
