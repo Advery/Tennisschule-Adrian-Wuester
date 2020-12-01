@@ -32,7 +32,7 @@ h2 {
 }
 p {
 	font-size: 1.8rem;
-	line-height: 2.4rem;
+	line-height: 1.4;
 	margin: 0 0 2.5rem 0;
 }
 div p:last-of-type {
@@ -252,11 +252,11 @@ div.content-max:first-child {
 }
 ul{
 	margin-left: 2.5rem;
-	margin-top: 4rem;
+	margin-bottom: 2.5rem;
 }
 li {
 	font-size: 1.8rem;
-	line-height: 2.4rem;
+	line-height: 1.4;
 }
 .hgfarbe-start, .hgfarbe-coach {
 	background-color: #0780CE;
