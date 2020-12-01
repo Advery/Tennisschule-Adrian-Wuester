@@ -372,7 +372,7 @@ li {
 }
 .stretch-content-vertical {
 	width: 100%;
-	min-height: 50%;
+	/*min-height: 50%;*/
 	height: auto;
 	border: 0.2rem solid white;
 	border-bottom: none;
