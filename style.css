@@ -247,7 +247,7 @@ div.content-max:first-child {
 }
 
 .stretch-content-vertical p:first-child {
-	padding-top: 4rem;
+	padding-top: 0;
 	margin-top: 0;
 }
 .stretch-content-col-2 p:first-of-type {
