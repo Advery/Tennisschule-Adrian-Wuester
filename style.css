@@ -224,7 +224,8 @@ nav ul li a {
 	align-items: center;
 }
 .content-max:first-of-type {
-	padding-top: 80vh!important;
+	background: tomato;
+	padding-top: 20vh !important;
 }
 .content-block {
 	box-sizing: border-box;
