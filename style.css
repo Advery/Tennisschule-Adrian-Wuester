@@ -224,8 +224,7 @@ nav ul li a {
 	align-items: center;
 }
 .content-max:first-of-type {
-	background: tomato;
-	padding-top: 20vh !important;
+	margin-top: 15vh !important;
 }
 .content-block {
 	box-sizing: border-box;
@@ -239,7 +238,7 @@ nav ul li a {
 	border-left: none;
 }
 div.content-max:first-child {
-	margin-top: 20vh;
+	/*margin-top: 20vh;*/
 }
 
 .stretch-content-vertical p:first-child {
