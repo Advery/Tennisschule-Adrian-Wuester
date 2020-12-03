@@ -215,7 +215,8 @@ nav ul li a {
 /**** Stoerer ****/
 .stoerer {
   position: absolute;
-  top: 180%;
+  top: 45%;
+  right:15%;	
   background-color: #f1e517;
   height: 210px;
   width: 210px;
@@ -246,7 +247,7 @@ nav ul li a {
   font-size: 15px;
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
-  margin-top: 0.5em;
+  margin: 0;
 }
 
 /**** Main Container and fixes ****/
