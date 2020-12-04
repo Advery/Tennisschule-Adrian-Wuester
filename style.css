@@ -526,12 +526,19 @@ li {
 	}
 }
 @media screen and  (min-width: 1200px) {
+/* Nav Mobil */
 	.nav-mobil-on-off {
 		display: none;
 	}
 }
 
-@media screen and  (max-width: 1200px) {	
+
+@media screen and  (max-width: 1200px) {
+/* Nav Desktop */		
+	.nav-on-off {
+		display: none;
+	}
+	
 /* Nav Mobil */	
     #hamburger-button {
       position: relative;
