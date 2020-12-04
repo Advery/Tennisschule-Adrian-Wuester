@@ -532,44 +532,86 @@ li {
 
 @media screen and  (max-width: 1200px) {	
 /* Nav Mobil */	
-/*	
-	.sidepanel  {
-	  width: 0;
-	  position: fixed;
-	  z-index: 1;
-	  top: 0;
-	  left: 0;
-	  background-color: white;
-	  overflow-x: hidden;
-	  transition: 0.5s;
-	  padding-top: 60px;
-	}
-	#mySidepanel {
-		width: 100vw;
-		height: 100vh;
-	}
-	.sidepanel a {
-	  padding: 8px 8px 8px 32px;
-	  text-decoration: none;
-	  font-size: 25px;
-	  color: #0780CE;
-	  display: block;
-	  transition: 0.3s;
-	}
-	.sidepanel .closebtn {
-	  position: absolute;
-	  top: 0;
-	  right: 25px;
-	  font-size: 36px;
-	}
-	.openbtn {
-	  font-size: 20px;
-	  cursor: pointer;
-	  color: white;
-	  padding: 10px 15px;
-	  border: none;
-	}
-	.mydiv-mobil ul li::before {
+    #hamburger-button {
+      position: relative;
+      z-index: 9999; /*so it never gets lost under something*/
+      display: inline-block;
+      vertical-align: top;
+      height:15px;
+      width:20px;
+      margin-left:5%;
+      margin-top:5%;
+    }
+
+    #hamburger-button:hover {
+      cursor: pointer;
+      /* changes the cursor to pointer */
+    }
+
+    #hamburger-button > span {
+      display: block;
+      height: 3px;
+      margin-bottom: 3px;
+      width: 20px;
+      background-color: pink;
+     -webkit-transition-timing-function: linear; /* Safari and Chrome */
+    transition-timing-function: linear;
+    transition-duration:1s;
+    }
+
+
+    #hamburger-button.open > span:first-child {
+    -webkit-transform: translateY(6px) rotate(45deg); /* Chrome, Safari, Opera */
+    transform:translateY(6px) rotate(45deg);
+    }
+
+
+    #hamburger-button.open > span:nth-child(2) {
+       -webkit-transform: rotateY(90deg); /* Safari */
+        transform: rotateY(90deg);
+      /* rotates the second child on the Y AXIS ONLY 90 degrees so it disappears into a point */
+    }
+
+    #hamburger-button.open > span:last-child {
+     -webkit-transform: translateY(-6px) rotate(-45deg); /* Chrome, Safari, Opera */
+        transform: translateY(-6px) rotate(-45deg);
+    }
+
+
+    .navbar{
+      position:absolute;
+      opacity:.9;
+      z-index:888; /*so its above the content but below the burger button*/
+      height:100vh;
+      width: 30vw;
+      left:-30vw;
+      transition:1s;
+      background-color:black;
+      color:white;
+    }
+
+    .navbar.open{
+      left:0;
+    }
+    .navbar ul{
+      list-style:none;
+      margin-top:40%;
+      font-size:1.5em;
+    }
+
+    .navbar ul li{
+      border-bottom:1px solid pink;
+      margin-bottom:10px;
+      padding:5px;
+      text-align:left;
+    }
+
+    .navbar ul li:hover{
+      text-shadow:1px 1px 3px pink;
+      cursor:pointer;
+    }	
+	
+.navbar ul li::before {
 		content: "";
 		width: 2rem;
 		height: 2rem;
@@ -579,7 +621,7 @@ li {
 		left: -2.5rem;
 		bottom: 0.2rem;
  }
-*/		
+	
 
 	
 /* 4 Felder normal */
