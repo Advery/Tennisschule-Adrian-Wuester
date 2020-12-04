@@ -542,9 +542,7 @@ li {
 	}
 	
 /* Nav Mobil */	
-	.navbar-mobile {
-		position: fixed;
-	}	
+
     #hamburger-button {
       position: relative;
       z-index: 9999; /*so it never gets lost under something*/
@@ -650,12 +648,12 @@ li {
     color: #0780CE;
     }	
     .navbar ul li:hover::before {
+	    position: relative;
 		content: "";
 		width: 2rem;
 		height: 2rem;
 		background-image: url(/assets/img/tennisball.svg);
 		background-repeat: no-repeat;
-		position: absolute;
 		left: -2.5rem;
 		bottom: 0.2rem;
     }
@@ -665,7 +663,7 @@ li {
     height: 2rem;
     background-image: url(/assets/img/tennisball.svg);
     background-repeat: no-repeat;
-    position: absolute;
+position: relative;
     left: -2.5rem;
 	bottom: 1rem;
 }
