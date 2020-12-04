@@ -542,6 +542,9 @@ li {
 	}
 	
 /* Nav Mobil */	
+	.navbar-mobile {
+		position: fixed;
+	}	
     #hamburger-button {
       position: relative;
       z-index: 9999; /*so it never gets lost under something*/
