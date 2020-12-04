@@ -642,7 +642,10 @@ li {
       margin-bottom: 3.8rem;
       text-align:left;
     }
-
+	
+    .navbar ul li a{
+    color: #0780CE;
+    }	
     .navbar ul li:hover::before {
 		content: "";
 		width: 2rem;
@@ -653,7 +656,7 @@ li {
 		left: -2.5rem;
 		bottom: 0.2rem;
     }
-.active2::before {
+.active::before {
 	content: "";
     width: 2rem;
     height: 2rem;
