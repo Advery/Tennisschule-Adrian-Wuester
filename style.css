@@ -605,6 +605,7 @@ li {
       transition:1s;
       background-color: white;
 	color: #0780CE;
+	font-weight: bold
     }
 
     .navbar.open{
@@ -622,12 +623,7 @@ li {
       text-align:left;
     }
 
-    .navbar ul li:hover{
-      text-shadow:1px 1px 3px yellow;
-      cursor:pointer;
-    }	
-	
-	.navbar ul li::before {
+    .navbar ul li:hover::before {
 		content: "";
 		width: 2rem;
 		height: 2rem;
@@ -636,10 +632,7 @@ li {
 		position: absolute;
 		left: -2.5rem;
 		bottom: 0.2rem;
- }
-	
-
-	
+    }
 /* 4 Felder normal */
 	.content-col-2 {
 		width: 82%;
