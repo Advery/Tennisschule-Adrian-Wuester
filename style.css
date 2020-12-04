@@ -537,10 +537,10 @@ li {
       z-index: 9999; /*so it never gets lost under something*/
       display: inline-block;
       vertical-align: top;
-      height:15px;
-      width:20px;
+      height: 1.6rem;
+      width: 2.2rem;
       margin-left: 90%;
-      margin-top:5%;
+      margin-top: 4.4rem;
     }
 
     #hamburger-button:hover {
@@ -552,7 +552,7 @@ li {
       display: block;
       height: 3px;
       margin-bottom: 3px;
-      width: 20px;
+      width: 2.2rem;
       background-color: white;
      -webkit-transition-timing-function: linear; /* Safari and Chrome */
     transition-timing-function: linear;
@@ -578,10 +578,14 @@ li {
         transform: translateY(-6px) rotate(-45deg);
     }
 
-	
+    #hamburger-button.open {
+	  height: 2rem;
+      	  width: 2rem;
+    }	
 
     #hamburger-button.open > span {
 	background-color: #0780CE;
+	 width: 2.6rem;
     }	
 
     .navbar{
