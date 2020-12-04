@@ -609,10 +609,22 @@ li {
 	color: #0780CE;
 	font-weight: bold
     }
-
     .navbar.open{
       right:0;
     }
+    .navbar p{
+        list-style:none;
+      margin-top: 7rem;
+	margin-left: 5.6rem;
+      font-size: 2em;
+    line-height: 1.4;
+    }
+	
+    .navbar p:last-child {
+    font-weight: 400;
+    line-height: 1.5;
+    }
+	
     .navbar ul{
       list-style:none;
       margin-top: 7rem;
