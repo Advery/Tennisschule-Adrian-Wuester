@@ -611,7 +611,7 @@ li {
     }
 
     .navbar.open{
-      left:0;
+      right:0;
     }
     .navbar ul{
       list-style:none;
