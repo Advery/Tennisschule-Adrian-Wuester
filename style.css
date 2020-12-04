@@ -252,6 +252,11 @@ nav ul li a {
 }
 
 /**** Main Container and fixes ****/
+.wrapper {
+	top: 15vh;
+	position: absolute;
+	z-index: -1;
+}
 .distance_nav {
 	height: 20vh;
 	width: 100%;
@@ -598,7 +603,7 @@ li {
       z-index:888; /*so its above the content but below the burger button*/
       height:100vh;
       width: 100vw;
-      left:-100vw;
+      right:-100vw;
       transition:1s;
       background-color: white;
 	color: #0780CE;
