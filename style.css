@@ -532,7 +532,7 @@ li {
 
 @media screen and  (max-width: 1200px) {	
 /* Nav Mobil */	
-	
+/*	
 	.sidepanel  {
 	  width: 0;
 	  position: fixed;
@@ -579,6 +579,9 @@ li {
 		left: -2.5rem;
 		bottom: 0.2rem;
  }
+*/		
+
+	
 /* 4 Felder normal */
 	.content-col-2 {
 		width: 82%;
