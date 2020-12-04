@@ -527,6 +527,7 @@ li {
 }
 @media screen and  (min-width: 1200px) {
 	.nav-mobil-on-off {
+		display: none;
 	}
 }
 
