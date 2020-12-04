@@ -269,7 +269,7 @@ nav ul li a {
 	align-items: center;
 }
 .content-max:first-of-type {
-	margin-top: 15vh !important;
+	
 	
 }
 .content-block {
@@ -282,9 +282,6 @@ nav ul li a {
 	border: 0.4rem solid white;
 	border-right: none;
 	border-left: none;
-}
-div.content-max:first-child {
-	/* margin-top: 20vh; */
 }
 
 .stretch-content-vertical p:first-child {
