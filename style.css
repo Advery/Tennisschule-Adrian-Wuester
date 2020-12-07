@@ -215,8 +215,8 @@ nav ul li a {
 /**** Stoerer ****/
 .stoerer {
   position: absolute;
-  top: 45%;
-  right:15%;	
+  top: 50%;
+  right: 5%;	
   background-color: #f1e517;
   height: 210px;
   width: 210px;
