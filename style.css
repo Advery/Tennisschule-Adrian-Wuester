@@ -253,7 +253,7 @@ nav ul li a {
 
 /**** Main Container and fixes ****/
 .wrapper {
-	top: calc(23vh - 8rem);
+	top: calc(23vh - 0.8rem);
 	position: absolute;
 	z-index: -1;
 }
