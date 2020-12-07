@@ -269,6 +269,10 @@ nav ul li a {
 	box-sizing: border-box;
 	display: flex;
 	align-items: start;
+	margin-bottom: 8vh;
+}
+.content-max:last-of-type {	
+	margin-bottom: 0;
 }
 .content-max:first-of-type {
 	
@@ -281,6 +285,7 @@ nav ul li a {
 	/*min-height: 55.2rem;*/
 	/*min-height: 65vh;
 	height: auto;*/
+	min-height: 65vh;
 	border: 0.4rem solid white;
 	border-right: none;
 	border-left: none;
