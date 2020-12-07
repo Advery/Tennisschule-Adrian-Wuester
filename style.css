@@ -68,7 +68,7 @@ img {
 .nav {
 	background-color: #479e82;
     	position: fixed;
-    	height: 21.5rem;
+    	/*height: 21.5rem;*/
     	width: 100%;
 }
 
