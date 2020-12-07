@@ -253,7 +253,7 @@ nav ul li a {
 
 /**** Main Container and fixes ****/
 .wrapper {
-	top: 23vh;
+	top: calc(23vh - 8rem);
 	position: absolute;
 	z-index: -1;
 }
@@ -271,7 +271,7 @@ nav ul li a {
 	height: auto;
 	box-sizing: border-box;
 	display: flex;
-	align-items: center;
+	align-items: start;
 }
 .content-max:first-of-type {
 	
