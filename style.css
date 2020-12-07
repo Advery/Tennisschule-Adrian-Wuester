@@ -9,7 +9,7 @@
 *{
 	box-sizing: border-box;
 	margin: 0;
-	padding: 0;$
+	padding: 0;
 	
 }
 
@@ -274,10 +274,7 @@ nav ul li a {
 .content-max:last-of-type {	
 	margin-bottom: 0;
 }
-.content-max:first-of-type {
-	
-	
-}
+.content-max:first-of-type {}
 .content-block {
 	box-sizing: border-box;
 	display: flex;
@@ -967,8 +964,8 @@ footer ul {
 /* Footer widescreen */
 @media screen and (min-width: 1200px){
 footer{
-width: 70%;
-margin: 0 0 6rem 6%;
+width: 88%;
+margin: 3vh 6% 3vh 6%;
 
 }
 
@@ -976,7 +973,7 @@ footer ul{
 display: flex;
 flex-direction: row;
 justify-content: space-between;
-margin: 0 5rem 2.5rem 0;
+margin: 0;
 }
 footer ul li{
 display: inline-block;
