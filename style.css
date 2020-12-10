@@ -776,8 +776,14 @@ li {
     		/* height: auto; */
     		border: 0.2rem solid white;
     		border-top: none;
-    		padding: 4rem;
+    		padding: 2rem;
     		padding-bottom: 0;
+	}
+	.content-2-1 ul {
+		/*margin-top: 2rem;*/
+	}
+	.stretch-content-vertical {
+    		margin-bottom: 2rem;
 	}
 	.content-2-2 {
 		min-width: 50%;
