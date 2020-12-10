@@ -689,14 +689,14 @@ li {
     text-decoration: none;	    
     }	
     .navbar ul li:hover::before {
-	    position: relative;
-		content: "";
-		width: 2rem;
-		height: 2rem;
-		background-image: url(/assets/img/tennisball.svg);
-		background-repeat: no-repeat;
-		left: -2.5rem;
-		bottom: 0.2rem;
+	position: relative;
+	content: "";
+	width: 2rem;
+	height: 2rem;
+	background-image: url(/assets/img/tennisball.svg);
+	background-repeat: no-repeat;
+	left: -2.5rem;
+	bottom: 0.2rem;
     }
 .active::before {
 	content: "";
@@ -704,9 +704,10 @@ li {
     height: 2rem;
     background-image: url(/assets/img/tennisball.svg);
     background-repeat: no-repeat;
-position: relative;
+	position: relative;
     left: -2.5rem;
 	bottom: 1rem;
+	display: inline-block;
 }
 /* 4 Felder normal */
 	.content-col-2 {
