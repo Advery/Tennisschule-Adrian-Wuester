@@ -374,7 +374,7 @@ li {
 	border-bottom: none;
 }
 .content-col-3 {
-	width: 27%;
+	width: 28%;
 	min-height: 100%;
 	height: auto;
 	border-left: 0.2rem solid white;
@@ -554,7 +554,7 @@ li {
 	
    .mobil-nav-div {
 	position: fixed;
-	border-bottom: 2px solid white;
+	border-bottom: 4px solid white;
 	padding-bottom: 1.2rem;
 	width: 100%;
     	height: 7.2rem;
@@ -1026,7 +1026,7 @@ display: inline-block;
 
 @media screen and (max-width: 1199px) {
 	footer ul{
-		margin: 0 0 6rem 6rem;
+		margin: 6rem 0 6rem 6rem;
 	}
 	footer ul li{
 		margin-bottom: 1.2rem;
