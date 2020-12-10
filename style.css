@@ -550,6 +550,12 @@ li {
 	}
 	
 /* Nav Mobil */	
+	
+	
+   .mobil-nav-div {
+	position: fixed;
+	   
+	}
 
     #hamburger-button {
       position: fixed;
