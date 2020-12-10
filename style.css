@@ -188,7 +188,7 @@ ul.navigation li::before {
 	content: "";
 	background-image: url(/assets/img/tennisball.svg);
 	background-repeat: no-repeat;
-	opacity: 0;
+
 }
 nav ul li a {
 	color: white;
