@@ -654,6 +654,7 @@ li {
 	
     .navbar ul li a{
     color: #0780CE;
+    text-decoration: none;	    
     }	
     .navbar ul li:hover::before {
 	    position: relative;
