@@ -635,18 +635,6 @@ li {
 	background-color: #0780CE;
 	 width: 2.6rem;
     }	
-	
-    .border-burger-bottom {
-   	border-bottom: 2px solid white;
-    	height: 7.4rem;
-    }
-	
-.border-burger-right {
-	margin-right: 36.5rem;
-    	border-right: 2px solid white;
-    	height: 37rem;
-    	right: 0;
-	}
 
     .navbar{
       position: fixed;
