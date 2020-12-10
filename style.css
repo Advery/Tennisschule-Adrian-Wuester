@@ -770,12 +770,13 @@ position: relative;
 		width: 100%;
 	}
 	.content-2-1 {
-		min-width: 50%;
-		border-left: none;
-		border-bottom: 0.2rem solid white;
-		padding-left: 2rem;
-		padding-right: 2rem;
-		padding-top: 2rem;
+    		width: 50%;
+    		min-height: 32.5vh;
+    		/* height: auto; */
+    		border: 0.2rem solid white;
+    		border-top: none;
+    		padding: 4rem;
+    		padding-bottom: 0;
 	}
 	.content-2-2 {
 		min-width: 50%;
@@ -940,6 +941,7 @@ position: relative;
 		border-bottom: none;
 	}
 	.stretch-content-vertical {
+		    order: 2;
 		width: 100%;
 		min-height: auto;
 		border-left: none;
