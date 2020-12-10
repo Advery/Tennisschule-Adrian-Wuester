@@ -554,8 +554,31 @@ li {
 	
    .mobil-nav-div {
 	position: fixed;
-	   
+	border-bottom: 2px solid white;
+	padding-bottom: 1.2rem;
 	}
+	
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    position: fixed;
+    top: 12vh;
+    left: 3.1%;
+    text-align: center;
+}
+	
+.logo a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    top: 1.5%;
+    position: fixed;
+    left: 3.1%;
+    text-align: center;
+}
 
     #hamburger-button {
       position: fixed;
