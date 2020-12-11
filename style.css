@@ -883,7 +883,9 @@ ul.navigation li.active::before {
 }
 
 @media screen and  (max-width: 800px) {
-	
+	.stoerer {
+		display: none;
+	}
 	/* basics */
 	ul{
 		margin-left: 2.5rem;
