@@ -769,7 +769,7 @@ li {
 		min-height: 66.2rem;
 	}
 	.content-max:first-child {
-		margin-top: -8rem;
+		margin-top: -1rem;
 	}
 	.content-block {
 		box-sizing: border-box;
