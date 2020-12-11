@@ -184,7 +184,7 @@ ul.navigation li::before {
 	background-repeat: no-repeat;
 
 }
-.active::before {
+ul.navigation li.active::before {
 	content: "";
 	width: 2rem;
 	height: 2rem;
