@@ -518,6 +518,8 @@ li {
 	height: 4rem;
 	margin-top: 1rem;
 	margin-bottom: 2rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
 	border: 1px solid white;
 	background-color: #0780CE;
 	color: white;
@@ -553,6 +555,10 @@ li {
 }
 #yform-allgemeinform-field-23-captcha {
 	margin-top: 1rem;
+}
+#yform-allgemeinform-bemerkungen textarea {
+	height: 25rem;
+	font-family: "Roboto", sans-serif;
 }
 
 @media screen and  (max-width: 1400px) {
