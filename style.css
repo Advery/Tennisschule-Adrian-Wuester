@@ -162,39 +162,7 @@ nav ul li {
 	align-items: flex-end;
 	position: relative;
 }
-ul.navigation li:hover::before {
-	opacity: 1;
-}
-ul.navigation li::before {
-  opacity: 0;
-  transition: 1s;
-	
-	content: "";
-	width: 2rem;
-	height: 2rem;
-	background-image: url(/assets/img/tennisball.svg);
-	background-repeat: no-repeat;
-	position: absolute;
-    	left: -2.5rem;
-	bottom: 0.8rem;
-}
-ul.navigation li::before {
-	content: "";
-	background-image: url(/assets/img/tennisball.svg);
-	background-repeat: no-repeat;
 
-}
-ul.navigation li.active::before {
-	content: "";
-	width: 2rem;
-	height: 2rem;
-	background-image: url(/assets/img/tennisball.svg);
-	background-repeat: no-repeat;
-	position: absolute;
-	left: -2.5rem;
-	bottom: 0.8rem;
-	opacity: 1;
-}
 nav ul li a {
 	color: white;
 	font-size: 2.56rem;
@@ -545,6 +513,39 @@ li {
 	.nav-mobil-on-off {
 		display: none;
 	}
+	ul.navigation li:hover::before {
+	opacity: 1;
+}
+ul.navigation li::before {
+  opacity: 0;
+  transition: 1s;
+	
+	content: "";
+	width: 2rem;
+	height: 2rem;
+	background-image: url(/assets/img/tennisball.svg);
+	background-repeat: no-repeat;
+	position: absolute;
+    	left: -2.5rem;
+	bottom: 0.8rem;
+}
+ul.navigation li::before {
+	content: "";
+	background-image: url(/assets/img/tennisball.svg);
+	background-repeat: no-repeat;
+
+}
+ul.navigation li.active::before {
+	content: "";
+	width: 2rem;
+	height: 2rem;
+	background-image: url(/assets/img/tennisball.svg);
+	background-repeat: no-repeat;
+	position: absolute;
+	left: -2.5rem;
+	bottom: 0.8rem;
+	opacity: 1;
+}
 }
 
 
