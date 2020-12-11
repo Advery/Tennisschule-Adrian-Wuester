@@ -546,6 +546,28 @@ ul.navigation li.active::before {
 	bottom: 0.8rem;
 	opacity: 1;
 }
+	.form-group {
+		display: flex;
+    		flex-direction: column;
+	}
+	}
+	.control-label {
+		width: 100%;
+    		font-size: 2rem;
+    		line-height: 1.4;
+	}
+	}
+	.form-control {
+		height: 4rem;
+    		margin-top: 1rem;
+   		margin-bottom: 2rem;
+    		border: 1px solid white;
+    		background-color: #0780CE;
+    		color: white;
+    		font-size: 2rem;
+    		line-height: 1.4;
+	}
+	
 }
 
 
