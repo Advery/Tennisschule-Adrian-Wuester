@@ -1002,7 +1002,7 @@ ul.navigation li.active::before {
 		min-width: 50%;
 	}
 	#yform-allgemeinform-field-23-anfrage_senden {
-		width: 70%;
+		width: 50%;
 }
 
 @media screen and (max-width: 479px) {
