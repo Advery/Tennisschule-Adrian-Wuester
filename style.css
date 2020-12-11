@@ -181,9 +181,15 @@ ul.navigation li:hover::before {
 	position: absolute;
     	left: -2.5rem;
 	bottom: 0.8rem;
-	opacity: 100%;
-	transition: opacity all 1s;
+	opacity: 1;
 }
+ul.navigation li::before {
+  opacity: 0;
+  transition: 0.3s;
+}
+  opacity: 0.6;
+  transition: 0.3s;
+
 ul.navigation li::before {
 	content: "";
 	background-image: url(/assets/img/tennisball.svg);
