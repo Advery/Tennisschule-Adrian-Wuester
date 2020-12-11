@@ -569,6 +569,12 @@ textarea:focus, input:focus, select:focus{
 	.main-navbar ul {
     		width: auto;
 	}
+	
+	.stoerer {
+  		position: absolute;
+  		top: 5%;
+  		right: 7%;	
+	}
 }
 @media screen and  (min-width: 1000px) {
 /* Nav Mobil */
