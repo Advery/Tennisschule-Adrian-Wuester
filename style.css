@@ -196,8 +196,8 @@ nav ul li a {
 /**** Stoerer ****/
 .stoerer {
   position: absolute;
-  top: 50%;
-  right: 5%;	
+  top: 5%;
+  right: 15%;	
   background-color: #f1e517;
   height: 32rem;
   width: 32rem;
@@ -213,19 +213,20 @@ nav ul li a {
 	box-sizing: border-box;
 }
 .stoerer__title {
-  font-size: 3.2rem;
-  font-weight: bold;
-  margin-bottom: 1em;
+	font-size: 3.5rem;
+	font-weight: bold;
+	margin-bottom: 1em;
 }
 .stoerer__leadtext {
-  font-size: 2.4rem;
-  font-weight: bold;
-  margin: 0;
+	font-size: 2.8rem;
+	font-weight: bold;
+	margin: 0 0 0.5rem 0;
+	line-height: 1.2;
 }
 .stoerer__smalltext {
-  font-size: 1.8rem;
-  font-weight: bold;
-  margin: 0;
+	font-size: 1.8rem;
+	font-weight: bold;
+	margin: 0;
 }
 
 /**** Main Container and fixes ****/
