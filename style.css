@@ -766,7 +766,7 @@ li {
 		width: 100%;
 		min-height: 55.2rem;
 	}
-	.navigation active a {
+	.active a {
 		margin-left: -2rem;
 	}
 /* 4 Felder normal */
