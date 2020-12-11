@@ -766,6 +766,9 @@ li {
 		width: 100%;
 		min-height: 55.2rem;
 	}
+	.navigation active a {
+		margin-left: -2rem;
+	}
 /* 4 Felder normal */
 	.content-col-1 {
 		display: none;
