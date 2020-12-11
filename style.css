@@ -637,26 +637,26 @@ button:focus, button:active {
 	ul.navigation li:hover::before {
 	opacity: 1;
 }
-ul.navigation li::before {
-  opacity: 0;
-  transition: 1s;
-	
-	content: "";
-	width: 2rem;
-	height: 2rem;
-	background-image: url(/assets/img/tennisball.svg);
-	background-repeat: no-repeat;
-	position: absolute;
-    	left: -2.5rem;
-	bottom: 0.8rem;
-}
-ul.navigation li::before {
-	content: "";
-	background-image: url(/assets/img/tennisball.svg);
-	background-repeat: no-repeat;
+	ul.navigation li::before {
+	  opacity: 0;
+	  transition: 1s;
 
-}
-ul.navigation li.active::before {
+		content: "";
+		width: 2rem;
+		height: 2rem;
+		background-image: url(/assets/img/tennisball.svg);
+		background-repeat: no-repeat;
+		position: absolute;
+		left: -2.5rem;
+		bottom: 0.8rem;
+	}
+	ul.navigation li::before {
+		content: "";
+		background-image: url(/assets/img/tennisball.svg);
+		background-repeat: no-repeat;
+
+	}
+	ul.navigation li.active::before {
 	content: "";
 	width: 2rem;
 	height: 2rem;
@@ -666,7 +666,7 @@ ul.navigation li.active::before {
 	left: -2.5rem;
 	bottom: 0.8rem;
 	opacity: 1;
-}
+	}
 }
 
 
@@ -825,20 +825,20 @@ ul.navigation li.active::before {
 	left: -2.5rem;
 	bottom: 0.2rem;
     }
-   .active {
-	left: -2.5rem;
+   	.active {
+		left: -2.5rem;
 	}
-.active::before {
-	content: "";
-    width: 2rem;
-    height: 2rem;
-    background-image: url(/assets/img/tennisball.svg);
-    background-repeat: no-repeat;
-	position: relative;
-    left: -2.5rem;
-	bottom: -0.25rem;
-	display: inline-block;
-}
+	.active::before {
+		content: "";
+	    width: 2rem;
+	    height: 2rem;
+	    background-image: url(/assets/img/tennisball.svg);
+	    background-repeat: no-repeat;
+		position: relative;
+	    left: -2.5rem;
+		bottom: -0.25rem;
+		display: inline-block;
+	}
 	.active a {
 		margin-left: -2rem;
 	}
@@ -957,7 +957,7 @@ ul.navigation li.active::before {
 	.content-col-3 {
 		display: none;
 	}
-/* 3 Felder */
+	/* 3 Felder */
 	.cont-1 {
 		display: none;
 	}
@@ -1003,7 +1003,8 @@ ul.navigation li.active::before {
 	}
 	#yform-allgemeinform-field-23-anfrage_senden {
 		width: 50%;
-}
+	}
+}	
 
 @media screen and (max-width: 479px) {
 /* block-container */
@@ -1019,14 +1020,14 @@ ul.navigation li.active::before {
 		flex-direction: column;
 	}
 	/* 4 Felder normal */
-  .content-col-1 {
-    display: none;
-		visibility: hidden;
-  }
-  .content-col-3 {
-    display: none;
-		visibility: hidden;
-  }
+	  .content-col-1 {
+	    display: none;
+			visibility: hidden;
+	  }
+	  .content-col-3 {
+	    display: none;
+			visibility: hidden;
+	  }
 	.content-col-2 {
 		min-width: 100%;
 		border-left: none;
@@ -1163,7 +1164,6 @@ footer ul {
 footer{
 width: 88%;
 margin: 3vh 6% 3vh 6%;
-
 }
 
 footer ul{
