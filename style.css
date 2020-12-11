@@ -10,7 +10,6 @@
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
-	
 }
 
 
@@ -535,11 +534,11 @@ li {
 }
 #yform-allgemeinform-field-23-anfrage_senden {
 	height: 4rem;
-	width: 100%;
+	width: 70%;
 	font-size: 2rem;
 	line-height: 1.4;
-	background-color: #0780CE;
-	color: white;
+	background-color: white;
+	color: #0780CE;
 	border: 1px solid white;
 }
 .input-group {
@@ -1002,7 +1001,8 @@ ul.navigation li.active::before {
 	.big-content-col-3 {
 		min-width: 50%;
 	}
-
+	#yform-allgemeinform-field-23-anfrage_senden {
+		width: 70%;
 }
 
 @media screen and (max-width: 479px) {
