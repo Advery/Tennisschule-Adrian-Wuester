@@ -163,6 +163,12 @@ nav ul li {
 	position: relative;
 }
 ul.navigation li:hover::before {
+	opacity: 1;
+}
+ul.navigation li::before {
+  opacity: 0;
+  transition: 1s;
+	
 	content: "";
 	width: 2rem;
 	height: 2rem;
@@ -171,11 +177,6 @@ ul.navigation li:hover::before {
 	position: absolute;
     	left: -2.5rem;
 	bottom: 0.8rem;
-	opacity: 1;
-}
-ul.navigation li::before {
-  opacity: 0;
-  transition: 1s;
 }
 ul.navigation li::before {
 	content: "";
