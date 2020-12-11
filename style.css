@@ -626,12 +626,7 @@ select option:focus {
 
 
 @media screen and  (min-width: 1000px) {
-	.stoerer {
-	  top: 0%;
-	  right: 0%;	
-	  height: 26rem;
-	  width: 26rem;
-	}	
+
 	
 /* Nav Mobil */
 	.nav-mobil-on-off {
@@ -879,10 +874,16 @@ ul.navigation li.active::before {
 	.nav-on-off {
 		display: none;
 	}
+	.stoerer {
+	  top: 0%;
+	  right: 0%;	
+	  height: 26rem;
+	  width: 26rem;
+	}	
 }
 
 @media screen and  (max-width: 800px) {
-
+	
 	/* basics */
 	ul{
 		margin-left: 2.5rem;
