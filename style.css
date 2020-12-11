@@ -581,6 +581,9 @@ select option:focus {
   	color:  #0780CE;
 	background-color: white;
 }
+button:focus, button:active {
+	outline-color: white;
+}
 
 @media screen and  (max-width: 1400px) {
 	.main-navbar ul {
