@@ -712,6 +712,9 @@ li {
 	bottom: -0.25rem;
 	display: inline-block;
 }
+	.active a {
+		margin-left: -2rem;
+	}
 /* 4 Felder normal */
 	.content-col-2 {
 		width: 82%;
@@ -766,9 +769,7 @@ li {
 		width: 100%;
 		min-height: 55.2rem;
 	}
-	.active a {
-		margin-left: -2rem;
-	}
+
 /* 4 Felder normal */
 	.content-col-1 {
 		display: none;
