@@ -755,8 +755,8 @@ li {
 @media screen and  (max-width: 800px) {
 	/* basics */
 	ul{
-				margin-left: 2.5rem;
-				margin-top: 4rem;
+		margin-left: 2.5rem;
+		margin-top: 4rem;
 	}
 	/* block-container */
 	.content-max {
@@ -764,7 +764,7 @@ li {
 		min-height: 66.2rem;
 	}
 	.content-max:first-child {
-		margin-left: -8rem;
+		margin-top: -8rem;
 	}
 	.content-block {
 		box-sizing: border-box;
