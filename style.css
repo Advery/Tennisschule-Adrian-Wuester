@@ -559,6 +559,10 @@ li {
 #yform-allgemeinform-bemerkungen textarea {
 	height: 25rem;
 	font-family: "Roboto", sans-serif;
+	padding-top: 0.5rem;
+}
+textarea:focus, input:focus, select:focus{
+    outline-color: white;
 }
 
 @media screen and  (max-width: 1400px) {
