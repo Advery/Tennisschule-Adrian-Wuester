@@ -595,6 +595,10 @@ ul.navigation li.active::before {
 	.input-group-btn a {
 		margin-top: -1rem;
 	}
+	#yform-allgemeinform-field-23-captcha {
+		width: 100%;
+    		margin-top: 1rem;
+	}
 }
 
 
