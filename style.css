@@ -175,7 +175,7 @@ ul.navigation li:hover::before {
 }
 ul.navigation li::before {
   opacity: 0;
-  transition: 0.3s;
+  transition: 1s;
 }
 ul.navigation li::before {
 	content: "";
@@ -192,6 +192,7 @@ ul.navigation li::before {
 	position: absolute;
 	left: -2.5rem;
 	bottom: 0.8rem;
+	opacity: 1;
 }
 nav ul li a {
 	color: white;
