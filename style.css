@@ -593,6 +593,42 @@ select option:focus {
   		right: 7%;	
 	}
 }
+
+
+
+@media screen and  (max-width: 1200px) {
+	
+	
+	.stoerer {
+	  top: 5%;
+	  right: 5%;	
+	  height: 26rem;
+	  width: 26rem;
+	}
+	.stoerer__title {
+		font-size: 2.8rem;
+		font-weight: bold;
+		margin-bottom: 1em;
+	}
+	.stoerer__leadtext {
+		font-size: 2.2rem;
+		font-weight: bold;
+		margin: 0 0 0.5rem 0;
+		line-height: 1.2;
+	}
+	.stoerer__smalltext {
+		font-size: 1.8rem;
+		font-weight: bold;
+		margin: 0;
+	}
+
+
+}	
+
+
+
+
+
 @media screen and  (min-width: 1000px) {
 /* Nav Mobil */
 	.nav-mobil-on-off {
