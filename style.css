@@ -568,7 +568,33 @@ ul.navigation li.active::before {
     		font-size: 2rem;
     		line-height: 1.4;
 	}
-	
+	.input-group span a {
+		color: white;
+    		font-size: 2rem;
+    		line-height: 1.4;
+    		margin-left: 2rem;
+    		text-decoration: none;
+	}
+	#yform-allgemeinform-field-26-anfrage_senden {
+		height: 4rem;
+    		width: 30rem;
+    		font-size: 2rem;
+    		line-height: 1.4;
+    		background-color: #0780CE;
+    		color: white;
+    		border: 1px solid white;
+	}
+	.input-group {
+		width: 100%;
+    		flex-direction: column;
+   		margin-bottom: 2rem;
+	}
+	.input-group-addon {
+		width: 100%;
+	}
+	.input-group-btn a {
+		margin-top: -1rem;
+	}
 }
 
 
