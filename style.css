@@ -763,12 +763,16 @@ li {
 		width: 100%;
 		min-height: 66.2rem;
 	}
+	.content-max:first-child {
+		margin-left: -8rem;
+	}
 	.content-block {
 		box-sizing: border-box;
 		display: flex;
 		width: 100%;
 		min-height: 55.2rem;
 	}
+	
 
 /* 4 Felder normal */
 	.content-col-1 {
