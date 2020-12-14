@@ -1083,6 +1083,7 @@ button:focus, button:active {
 		width: 100%;
 		display: flex;
 		display: -webkit-flex; /* Safari */
+		min-height: 0;
 	}
 	.cont-2-2 {
 		width: 100%;
