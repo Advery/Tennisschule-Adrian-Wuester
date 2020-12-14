@@ -921,6 +921,7 @@ button:focus, button:active {
     		min-height: 32.5vh;
     		/* height: auto; */
     		border: 0.2rem solid white;
+		border-left: none;
     		border-top: none;
     		padding: 2rem;
     		padding-bottom: 0;
