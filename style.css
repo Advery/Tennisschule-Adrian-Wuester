@@ -870,9 +870,6 @@ button:focus, button:active {
 	.big-content-col-3 {
 		width: 53%;
 	}
-}
-
-@media screen and  (max-width: 1000px) {
 	.nav-on-off {
 		display: none;
 	}
@@ -881,7 +878,10 @@ button:focus, button:active {
 	  right: 0%;	
 	  height: 26rem;
 	  width: 26rem;
-	}	
+	}
+	.content-2-1 {
+		border-left: none;
+	}
 }
 
 @media screen and  (max-width: 800px) {
@@ -1102,6 +1102,7 @@ button:focus, button:active {
 		border-left: none;
 		border-right: none;
 		border-top: none;
+		margin-bottom: 0;
 	}
 	div#divorder1-1 {
 		order: 1;
@@ -1125,6 +1126,10 @@ button:focus, button:active {
 		height: auto;
 		border-left: none;
 		border-right: none;
+		padding-bottom: 0;
+	}
+	.stretch-content-col-2 ul {
+		margin-top: 0;
 	}
 	.stretch-content-col-3 {
 		width: 100%;
