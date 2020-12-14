@@ -312,7 +312,6 @@ li {
 }
 .content-2-1 {
 	width: 50%;
-	min-height: 32.5vh;
 	/*height: auto;*/
 	border: 0.2rem solid white;
 	border-top: none;
