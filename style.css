@@ -879,6 +879,14 @@ button:focus, button:active {
 	  height: 26rem;
 	  width: 26rem;
 }
+	
+
+@media screen and  (max-width: 800px) {	
+
+	.content-2-1 {
+		min-height: 32.5vh;
+	}
+}
 
 @media screen and  (max-width: 800px) {
 	.stoerer {
@@ -914,7 +922,7 @@ button:focus, button:active {
 	}
 	.content-2-1 {
     		width: 50%;
-    		min-height: 32.5vh;
+    		
     		/* height: auto; */
     		border: 0.2rem solid white;
 		border-left: none;
