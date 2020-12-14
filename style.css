@@ -878,10 +878,6 @@ button:focus, button:active {
 	  right: 0%;	
 	  height: 26rem;
 	  width: 26rem;
-	}
-	.content-2-1 {
-		border-left: none;
-	}
 }
 
 @media screen and  (max-width: 800px) {
