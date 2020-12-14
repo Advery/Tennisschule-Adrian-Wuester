@@ -982,6 +982,7 @@ button:focus, button:active {
 	.stretch-content-vertical {
 		min-width: 100%;
 		border-left: none;
+		border-right: none;
 		padding-left: 2rem;
 		padding-right: 2rem;
 		padding-top: 2rem;
