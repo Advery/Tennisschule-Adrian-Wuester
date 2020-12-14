@@ -881,7 +881,7 @@ button:focus, button:active {
 }
 	
 
-@media screen and  (max-width: 800px) {	
+@media screen and  (min-width: 800px) {	
 
 	.content-2-1 {
 		min-height: 32.5vh;
