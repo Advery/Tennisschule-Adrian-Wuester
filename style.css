@@ -642,12 +642,12 @@ button:focus, button:active {
 	  transition: 1s;
 
 		content: "";
-		width: 2rem;
-		height: 2rem;
+		width: 1.6rem;
+		height: 1.6rem;
 		background-image: url(/assets/img/tennisball.svg);
 		background-repeat: no-repeat;
 		position: absolute;
-		left: -2.5rem;
+		left: -2.2rem;
 		bottom: 0.8rem;
 	}
 	ul.navigation li::before {
