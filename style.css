@@ -74,7 +74,7 @@ img {
 
 .nav-row-1 {
 	width: 100%;
-	height: 8vh;
+	height: 9vh;
 	border-bottom: solid 4px white;
 	display: flex;
 	flex-direction: row;
@@ -231,7 +231,7 @@ nav ul li a {
 
 /**** Main Container and fixes ****/
 .wrapper {
-	top: calc(23vh - 0.8rem);
+	top: calc(24vh - 0.8rem);
 	position: absolute;
 	z-index: -1;
 }
