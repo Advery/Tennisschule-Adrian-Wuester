@@ -646,7 +646,14 @@ footer ul li a{
 }	
 
 
-
+@media screen and (max-width: 1200px) {
+	footer ul{
+		margin: 6rem 0 6rem 6rem;
+	}
+	footer ul li{
+		margin-bottom: 1.2rem;
+	}
+}
 
 
 @media screen and  (min-width: 1000px) {
@@ -1214,11 +1221,4 @@ display: inline-block;
 
 /* Footer smartphone */
 
-@media screen and (max-width: 1199px) {
-	footer ul{
-		margin: 6rem 0 6rem 6rem;
-	}
-	footer ul li{
-		margin-bottom: 1.2rem;
-	}
-}
+
