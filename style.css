@@ -585,26 +585,35 @@ button:focus, button:active {
 }
 
 @media screen and (min-width: 1200px) {
-footer{
-width: 67%;
-padding: 3vh 6% 3vh 6%;
+	footer{
+	width: 67%;
+	padding: 3vh 6% 3vh 6%;
+	}
+
+	footer ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 0;
+
+	}
+	footer ul li{
+	display: inline-block;
+	}
+	footer ul li a{
+		font-weight: bold;
+		text-decoration: none;
+	}
+}
+@media screen and (max-width: 1200px) {
+	footer ul{
+		margin: 6rem 0 6rem 6rem;
+	}
+	footer ul li{
+		margin-bottom: 1.2rem;
+	}
 }
 
-footer ul{
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-margin: 0;
-
-}
-footer ul li{
-display: inline-block;
-}
-footer ul li a{
-	font-weight: bold;
-	text-decoration: none;
-}
-}
 
 @media screen and  (max-width: 1400px) {
 	.main-navbar ul {
@@ -617,7 +626,6 @@ footer ul li a{
   		right: 25%;	
 	}
 }
-
 
 
 @media screen and  (max-width: 1200px) {	
@@ -644,16 +652,6 @@ footer ul li a{
 		margin: 0;
 	}
 }	
-
-
-@media screen and (max-width: 1200px) {
-	footer ul{
-		margin: 6rem 0 6rem 6rem;
-	}
-	footer ul li{
-		margin-bottom: 1.2rem;
-	}
-}
 
 
 @media screen and  (min-width: 1000px) {
@@ -1202,21 +1200,19 @@ footer ul {
 
 /* Footer widescreen */
 @media screen and (min-width: 1200px) {
-footer{
-width: 88%;
-margin: 3vh 6% 3vh 6%;
-}
-
-footer ul{
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-margin: 0;
-}
-footer ul li{
-display: inline-block;
-}
-
+	footer{
+		width: 88%;
+		margin: 3vh 6% 3vh 6%;
+	}
+	footer ul{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		margin: 0;
+	}
+	footer ul li{
+		display: inline-block;
+	}
 }
 
 /* Footer smartphone */
