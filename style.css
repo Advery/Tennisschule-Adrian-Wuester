@@ -583,6 +583,21 @@ select option:focus {
 button:focus, button:active {
 	outline-color: white;
 }
+footer{
+width: 88%;
+margin: 3vh 6% 3vh 6%;
+}
+
+footer ul{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin: 0;
+}
+footer ul li{
+display: inline-block;
+}
+
 
 @media screen and  (max-width: 1400px) {
 	.main-navbar ul {
