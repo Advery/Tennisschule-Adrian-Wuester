@@ -209,7 +209,7 @@ nav ul li a {
 	  text-decoration: none;
 	  color: #0780ce;
 	  flex-direction: column;
-	padding: 1rem;
+	padding: 1.5rem;
 	box-sizing: border-box;
 }
 .stoerer__title {
