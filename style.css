@@ -597,7 +597,10 @@ margin: 0;
 footer ul li{
 display: inline-block;
 }
-
+footer ul li a{
+	font-weight: bold;
+	text-decoration: none;
+}
 
 @media screen and  (max-width: 1400px) {
 	.main-navbar ul {
