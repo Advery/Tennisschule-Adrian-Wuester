@@ -874,10 +874,10 @@ button:focus, button:active {
 		display: none;
 	}
 	.stoerer {
-	  top: 0%;
-	  right: 0%;	
-	  height: 26rem;
-	  width: 26rem;
+	  top: 15%;
+	  right: 15%;	
+	  height: 25rem;
+	  width: 25rem;
 }
 	
 
