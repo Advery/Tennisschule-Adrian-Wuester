@@ -597,6 +597,11 @@ footer ul {
 
 .container-logo {
 	min-width: auto;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: space-between;
 }
 
 
