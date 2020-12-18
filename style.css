@@ -600,8 +600,11 @@ footer ul {
 	background-color: white;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
-	align-content: space-between;
+	justify-content: space-around;
+	align-items: center;
+}
+.container-logo img {
+	align-self: center;
 }
 
 
