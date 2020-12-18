@@ -416,10 +416,10 @@ li {
 /**** 2 Felder gestreckt über zwei Zeilen vertikal ****/
 .stretch-content-col-2 {
 	box-sizing: border-box;
-	display: flex;
+	/*display: flex;
 	flex-wrap: wrap;
 	align-items: flex-start;
-	align-content: flex-start;
+	align-content: flex-start;*/
 	width: 33.5%;
 	min-height: 100%;
 	border: 0.2rem solid white;
@@ -432,8 +432,8 @@ li {
 }
 .stretch-content-col-3 {
 	box-sizing: border-box;
-	display: flex;
-	flex-wrap: wrap;
+	/*display: flex;
+	flex-wrap: wrap;*/
 	width: 33.5%;
 	min-height: 100%;
 	border: 0.2rem solid white;
