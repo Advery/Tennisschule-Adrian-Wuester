@@ -52,6 +52,11 @@ img {
     	min-height: 100%;
    	 max-width: 100%; */
 }
+
+.logo a img {
+	width: 100%;
+}
+
 .logo a {
 	display: flex;
     align-items: center;
