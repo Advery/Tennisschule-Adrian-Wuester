@@ -1,7 +1,8 @@
 @charset "UTF-8";
 
 /* Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 :root {
 	font-size: 62.5%;
@@ -16,7 +17,7 @@
 /**** Basics ****/
 body {
 	margin: 0;
-	font-family: "Roboto", sans-serif;
+	/*font-family: "Montserrat", sans-serif; */
 	color: white;
 }
 h1 {
@@ -145,7 +146,7 @@ nav {
 	display: flex;
 	align-items: baseline;
 	text-transform: none;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-weight: 600;
 	font-size: 1.6rem;
 }
@@ -173,7 +174,7 @@ nav ul li a {
 	font-size: 2rem;
 	align-items: flex-end;
 	text-transform: none;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-weight: 600;
 	text-decoration: none;
 }
@@ -563,7 +564,7 @@ li {
 }
 #yform-allgemeinform-bemerkungen textarea {
 	height: 25rem;
-	font-family: "Roboto", sans-serif;
+	font-family: "Montserrat", sans-serif;
 	padding-top: 0.5rem;
 }
 textarea:focus, input:focus, select:focus{
