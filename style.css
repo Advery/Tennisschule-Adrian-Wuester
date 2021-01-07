@@ -682,6 +682,16 @@ footer ul {
 		font-weight: normal;
 		margin: 0;
 	}
+	.content-max-s-mobil .content-block .content-col-2 .content-2-2, .content-max-s-mobil .content-block .content-col-2 .content-2-4{
+		display: none;
+	}
+	.content-max-s-mobil .content-block .content-col-2 {
+		width: 41%;
+	}
+	.content-max-s-mobil .content-block .content-col-3 {
+		width: 41%;
+		margin-right: 12%;
+	}
 }	
 
 
