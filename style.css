@@ -658,7 +658,7 @@ footer ul {
 	}
 }
 
-@media screen and  (min-width: 1200px) {
+@media screen and  (min-width: 1000px) and  (max-width: 1200px) {
 	.content-max-s-mobil .content-block .content-col-3 {
 		margin-right: 12%;
 	}
