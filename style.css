@@ -684,6 +684,8 @@ footer ul {
 	}
 	.content-max-s-mobil .content-block .content-col-2 .content-2-2, .content-max-s-mobil .content-block .content-col-2 .content-2-4{
 		display: none;
+	}
+	.content-max-s-mobil .content-block .content-col-2 .content-2-1, .content-max-s-mobil .content-block .content-col-2 .content-2-3{
 		width: 100%;
 	}
 	.content-max-s-mobil .content-block .content-col-2 {
