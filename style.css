@@ -661,7 +661,7 @@ footer ul {
 
 @media screen and  (max-width: 1200px) {	
 	.stoerer {
-	  top: 25%;
+	  top: 50%;
 	  right: 25%;	
 	  height: 25rem;
 	  width: 25rem;
@@ -946,7 +946,7 @@ footer ul {
 		display: none;
 	}
 	.stoerer {
-	  top: 15%;
+	  top: 50%;
 	  right: 15%;	
 	  height: 25rem;
 	  width: 25rem;
@@ -958,12 +958,16 @@ footer ul {
 	.content-2-1 {
 		min-height: 32.5vh;
 	}
+	.stoerer {
+	  top: 50%;
+	  right: 15%;	
+	  height: 25rem;
+	  width: 25rem;
+}
 }
 
 @media screen and  (max-width: 800px) {
-	.stoerer {
-		display: none;
-	}
+
 	/* basics */
 	ul{
 		margin-left: 2.5rem;
@@ -1081,6 +1085,14 @@ footer ul {
 	}
 	#yform-allgemeinform-field-23-anfrage_senden {
 		width: 50%;
+	}
+	
+	.content-max-s-mobil .content-block .content-col-2 {
+		width: 50%;
+	}
+	.content-max-s-mobil .content-block .content-col-3 {
+		width: 50%;
+		border-right: none;
 	}
 }	
 
@@ -1223,6 +1235,25 @@ footer ul {
 		min-height: 50vh;
 		border-top: 0.4rem solid white;
 		border-left: none;
+	}
+	.content-max-s-mobil .content-block {
+		display: flex;
+		flex-direction: column;
+	}
+	.content-max-s-mobil .content-block .content-col-2 .content-2-1, .content-max-s-mobil .content-block .content-col-2 .content-2-3{
+		width: 100%;
+	}
+	.content-max-s-mobil .content-block .content-col-2 {
+		width: 100%;
+	}
+	.content-max-s-mobil .content-block .content-col-3 {
+		width: 100%;
+	}
+	.stoerer {
+	  top: 100%;
+	  right: 15%;	
+	  height: 25rem;
+	  width: 25rem;
 	}
 }
 
