@@ -987,6 +987,12 @@ footer ul {
 		width: 100%;
 		min-height: 55.2rem;
 	}
+	.content-max-s-mobil .content-block {
+		box-sizing: border-box;
+		display: flex;
+		width: 50%;
+		min-height: 55.2rem;
+	}
 	
 
 /* 4 Felder normal */
@@ -1035,9 +1041,10 @@ footer ul {
 		border-top: none;
 		border-top: 0.2rem solid white;
 	}
-	.content-col-3 {
+	.content-max .content-block .content-col-3 {
 		display: none;
 	}
+
 	/* 3 Felder */
 	.cont-1 {
 		display: none;
@@ -1088,10 +1095,10 @@ footer ul {
 	}
 	
 	.content-max-s-mobil .content-block .content-col-2 {
-		width: 50%;
+		width: 100%;
 	}
 	.content-max-s-mobil .content-block .content-col-3 {
-		width: 50%;
+		width: 100%;
 		border-right: none;
 	}
 }	
