@@ -1142,8 +1142,8 @@ footer ul {
 			visibility: hidden;
 	  }
 	 .content-max .content-block .content-col-3 {
-	    display: none;
-			visibility: hidden;
+	    	display: none;
+	    	visibility: hidden;
 	  }
 	.content-max-s-mobil .content-block .content-col-3 {
 		height: 100vw;
@@ -1225,15 +1225,15 @@ footer ul {
 		border-top: none;
 		margin-bottom: 0;
 	}
-	div#divorder1-1 {
+	.content-max .content-block .content-col-2 .content-2-1 {
 		order: 1;
 		-webkit-order: 1;
 	}
-	div#divorder1-2 {
+	.content-max .content-block .content-col-2 .content-2-2 {
 		order: 3;
 		-webkit-order: 3;
 	}
-	div#divorder1-3 {
+	.content-max .content-block .content-col-2 .content-2-3 {
 		order: 2;
 		-webkit-order: 2;
 	}
