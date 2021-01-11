@@ -1120,7 +1120,7 @@ footer ul {
 	font-family: 'Montserrat', sans-serif;
 }*/
 
-	body {
+	body p, body li {
 		font-size: 1.8rem;
 	}
 	
