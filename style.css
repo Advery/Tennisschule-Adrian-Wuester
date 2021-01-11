@@ -1274,6 +1274,7 @@ footer ul {
 	}
 	.content-max-s-mobil .content-block .content-col-3 {
 		width: 100%;
+		border-left: none;
 	}
 	.stoerer {
 	  top: 65%;
