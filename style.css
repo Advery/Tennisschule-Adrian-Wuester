@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /* Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 :root {
@@ -1113,12 +1113,12 @@ footer ul {
 }	
 
 @media screen and (max-width: 479px) {
-	body {
+/*	body {
 	font-family: "Roboto", sans-serif;
 }
 	.number-navbar a, nav ul li a, #yform-allgemeinform-bemerkungen textarea {
 	font-family: 'Montserrat', sans-serif;
-}
+}*/
 /* block-container */
 	.content-max {
 		width: 100%;
