@@ -1239,8 +1239,10 @@ footer ul {
 		padding: 2rem;
 		background-size: cover;
 		background-position: center;
-
-		  /* These are technically the same, but use both */
+	}
+	
+	.max-content-2 p a {
+			  /* These are technically the same, but use both */
 		  overflow-wrap: break-word;
 		  word-wrap: break-word;
 
@@ -1255,7 +1257,6 @@ footer ul {
 		  -moz-hyphens: auto;
 		  -webkit-hyphens: auto;
 		  hyphens: auto;
-
 	}
 	
 	.max-content-3 {
