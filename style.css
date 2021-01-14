@@ -1112,12 +1112,6 @@ footer ul {
 		border-right: none;
 	}
 }
-	
-
-
-@media screen and (min-width: 480px) {	
-
-}
 
 
 @media screen and (max-width: 479px) {
@@ -1234,11 +1228,11 @@ footer ul {
 		margin-bottom: 0;
 	}
 	
-	.content-max-1 {
+	.max-content-1 {
 		display: none;
 	}
 	
-	.content-max-2 {
+	.max-content-2 {
 		width: 100vw;
 		border-left: none;
 		border-right: none;
@@ -1247,7 +1241,7 @@ footer ul {
 		background-position: center;
 	}
 	
-	.content-max-3 {
+	.max-content-3 {
 		display: none;
 	}
 	
