@@ -579,6 +579,29 @@ footer ul {
 	list-style-type: none;
 }
 
+	.max-content-1 {
+	width: 6%;
+	height: auto;
+	border-right: 0.2rem solid white;
+	}
+	.max-content-2 {
+		box-sizing: border-box;
+		width: 67%;
+		height: auto;
+		border: 0.2rem solid white;
+		border-bottom: none;
+		border-top: none;
+		border-right: 0.4rem solid white;
+		background-size: cover;
+		background-position: center;
+		padding: 4rem;
+	}
+	.max-content-3 {
+		width: 27%;
+		min-height: 100%;
+		height: auto;
+		border-left: 0.2rem solid white;
+	}
 
 .container-logo {
 	min-width: auto;
@@ -1093,29 +1116,7 @@ footer ul {
 
 
 @media screen and (min-width: 480px) {	
-	.max-content-1 {
-	width: 6%;
-	height: auto;
-	border-right: 0.2rem solid white;
-	}
-	.max-content-2 {
-		box-sizing: border-box;
-		width: 67%;
-		height: auto;
-		border: 0.2rem solid white;
-		border-bottom: none;
-		border-top: none;
-		border-right: 0.4rem solid white;
-		background-size: cover;
-		background-position: center;
-		padding: 4rem;
-	}
-	.max-content-3 {
-		width: 27%;
-		min-height: 100%;
-		height: auto;
-		border-left: 0.2rem solid white;
-	}
+
 }
 
 
