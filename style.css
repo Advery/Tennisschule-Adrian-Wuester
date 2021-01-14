@@ -1225,6 +1225,21 @@ footer ul {
 		border-top: none;
 		margin-bottom: 0;
 	}
+	
+	.content-max-1 {
+		display: none;
+	}
+	
+	.content-max-1 {
+		width: 100%;
+		border-left: none;
+		border-right: none;
+	}
+	
+	.content-max-3 {
+		display: none;
+	}
+	
 	.content-max .content-block .content-col-2 .content-2-1 {
 		order: 1;
 		-webkit-order: 1;
