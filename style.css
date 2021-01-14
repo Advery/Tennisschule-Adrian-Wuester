@@ -1091,6 +1091,7 @@ footer ul {
 }
 	
 
+
 @media screen and (min-width: 480px) {	
 	.max-content-1 {
 	width: 6%;
@@ -1116,6 +1117,7 @@ footer ul {
 		border-left: 0.2rem solid white;
 	}
 }
+
 
 @media screen and (max-width: 479px) {
 /*	body {
