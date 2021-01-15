@@ -1191,7 +1191,7 @@ footer ul {
 		border-left: none;
 		border-top: none;
 		border-bottom: 0.4rem solid white;
-		margin-top: 0;
+		padding-top: 0;
 	}
 	.content-2-4 {
 		display: none;
