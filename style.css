@@ -1293,7 +1293,10 @@ footer ul {
 		margin-bottom: 0;
 	}
 	.stretch-content-col-2 p:first-of-type {
-		padding-top: 2.5rem;
+		padding-top: 0;
+	}
+	.stretch-content-col-2 ul{
+		margin-bottom: 2.5rem;
 	}
 	.stretch-content-col-3 {
 		width: 100%;
