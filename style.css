@@ -1292,6 +1292,9 @@ footer ul {
 		margin-top: 0;
 		margin-bottom: 0;
 	}
+	.stretch-content-col-2 p:first-of-type {
+		padding-top: 2.5rem;
+	}
 	.stretch-content-col-3 {
 		width: 100%;
 		min-height: 50vh;
